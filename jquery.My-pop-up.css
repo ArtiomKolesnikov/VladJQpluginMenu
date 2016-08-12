@@ -1,0 +1,43 @@
+.list-item{
+    float: left;
+    position: relative;
+    transition: color .7s, background-color .7s;
+    list-style-type: none;
+    padding: .7rem;
+}
+
+.list-item .link{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: .7rem;
+    display: block;
+    font-family: 'Segoe UI', serif;
+}
+
+.list-item .dropdown{
+    float: left;
+    top: 100%;
+    position: absolute;
+    left: 0;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 1s;
+    width: 100%
+}
+
+.list-item .dropdown .item{
+    display: block;
+    -webkit-transition: .7s;
+    width: 100%;
+}
+
+.list-item .dropdown .item .link{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: .7rem;
+    display: block;
+    font-family: 'Segoe UI', serif;
+}
+
